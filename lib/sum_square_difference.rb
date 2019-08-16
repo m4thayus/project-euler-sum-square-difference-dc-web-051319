@@ -16,11 +16,11 @@ def square_of_sums(limit)
     sum ** 2
 end
 
-def difference(limit)
+def sum_square_difference(limit)
     square_of_sums(limit) - sum_of_squares(limit)
 end
 
 puts sum_of_squares(10)
 puts square_of_sums(10)
-puts difference(10)
-puts difference(100)
+puts sum_square_difference(10)
+puts sum_square_difference(100)
